@@ -1,0 +1,11 @@
+<div class="row">
+  <table class="table">
+    <tbody>
+    <% @repositories.each do |repository| %>
+      <tr scope="row">
+        <td><%= link_to repository.name, repository.url %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
