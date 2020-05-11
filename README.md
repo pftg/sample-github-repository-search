@@ -8,7 +8,7 @@ please have in mind that we use Ruby. Its up to you how you want to write it, an
 # Trade-offs
 
 * No pagination
-* No TDD
+* No Remote Stubs for Test: [How to handle remote services in tests](https://jtway.co/how-to-work-with-external-services-in-tests-f06050343aeb)
 
 # Solution
 

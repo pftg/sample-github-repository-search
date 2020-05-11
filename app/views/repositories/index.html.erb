@@ -3,7 +3,7 @@
     <tbody>
     <% @repositories.each do |repository| %>
       <tr scope="row">
-        <td><%= link_to repository.name, repository.url %></td>
+        <td test-id="repo-name"><%= link_to repository.name, repository.url %></td>
       </tr>
     <% end %>
     </tbody>
